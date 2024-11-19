@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+:root{
+    font-family: "Roboto Slab", serif;
+}
+a{
+    text-decoration: none;
+}
+.navbar-brand{
+    font-weight: bold;
+}
+.btn{
+    background-color: #ffb800;
+    border: #ffb800;
+    color: #000000;
+    font-weight: 600;
+    width: 200px;
+}
+.nav-item .nav-link{
+    font-size: 14px;
+}
+.bg-img{
+    padding: 0;
+}
+.bg-img .content{
+    height: 60vh;
+    background: 
+        linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+        url('../images/header-bg.jpg');
+    background-size: cover;
+    width: 100%;
+}
+
+section{
+    margin-top: 20px;
+}
+.title{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.about p{
+    font-size: 16px;
+}
+.about .btn{
+    float: right;
+    display: flex;
+}
+.one-image img{
+    margin: auto;
+    height: 200px;
+    width: 600px;
+}
+.testimonials{
+    background-color: #fff7cb;
+}
+.footer .navbar-nav li{
+    margin: 20px;
+}
+footer{
+    background-color: #484848;
+}
+.bi-laptop{
+    color: #ffffff;
+    font-size: 32px;
+}
+footer a{
+    color: #ffffff;
+}
+.footer .bi{
+    margin-right: 8px;
+}
